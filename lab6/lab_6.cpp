@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "ProperFraction.h"
 
 int main()
