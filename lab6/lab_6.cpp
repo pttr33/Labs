@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "ProperFraction.h"
 
 int main()
@@ -6,9 +6,9 @@ int main()
 	setlocale(LC_ALL, "Russian");
 
 	int numerator1, denominator1, numerator2, denominator2;
-	std::cout << "Ââåäèòå ÷èñëèòåëü è çíàìåíàòåëü ïåðâîé äðîáè: " << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÐµÐ»ÑŒ Ð¸ Ð·Ð½Ð°Ð¼ÐµÐ½Ð°Ñ‚ÐµÐ»ÑŒ Ð¿ÐµÑ€Ð²Ð¾Ð¹ Ð´Ñ€Ð¾Ð±Ð¸: " << std::endl;
 	std::cin >> numerator1 >> denominator1;
-	std::cout << "Ââåäèòå ÷èñëèòåëü è çíàìåíàòåëü âòîðîé äðîáè: " << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÐµÐ»ÑŒ Ð¸ Ð·Ð½Ð°Ð¼ÐµÐ½Ð°Ñ‚ÐµÐ»ÑŒ Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð´Ñ€Ð¾Ð±Ð¸: " << std::endl;
 	std::cin >> numerator2 >> denominator2;
 
 	try {
@@ -34,7 +34,7 @@ int main()
 		f1_copy.print();
 	}
 	catch (const std::exception& e) {
-		std::cout << e.what() << std::endl; // ïðî îáðàáîò÷èê îøèáîê ñêàçàëà èèøêà ìíå, ðåøèë äîáàâèòü
+		std::cout << e.what() << std::endl; // Ð¿Ñ€Ð¾ Ð¾Ð±Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸Ðº Ð¾ÑˆÐ¸Ð±Ð¾Ðº ÑÐºÐ°Ð·Ð°Ð»Ð° Ð¸Ð¸ÑˆÐºÐ° Ð¼Ð½Ðµ, Ñ€ÐµÑˆÐ¸Ð» Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ
 	}
 
 	return 0;
